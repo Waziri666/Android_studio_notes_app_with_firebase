@@ -22,23 +22,21 @@
         android:layout_below="@id/sign_up_icon"
         android:id="@+id/hello_text"
         android:orientation="vertical">
+        
         <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello."
         android:textStyle="bold"
-        android:textSize="32sp"
-
-        />
+        android:textSize="32sp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lets get started"
             android:textStyle="bold"
-            android:textSize="32sp"
-
-            />
+            android:textSize="32sp"/>
+   
     </LinearLayout>
 
     <LinearLayout
@@ -101,7 +99,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:visibility="gone" />
+            android:visibility="gone"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -109,12 +108,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/form_layout"
         android:orientation="horizontal"
-        android:gravity="center"
-        >
+        android:gravity="center">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account? " />
+            android:text="Already have an account? "/>
 
         <TextView
             android:layout_width="wrap_content"
