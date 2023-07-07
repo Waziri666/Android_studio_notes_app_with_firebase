@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.firebase.ui.firestore.FirestoreRecyclerAdapter;
 import com.firebase.ui.firestore.FirestoreRecyclerOptions;
 
@@ -46,7 +45,6 @@ public class NoteAdapter extends FirestoreRecyclerAdapter<Note,NoteAdapter.NoteV
     class NoteViewHolder extends RecyclerView.ViewHolder{
 
         TextView titleTextView, contentTextView,timestampTextview;
-
 
         public NoteViewHolder(@NonNull View itemView) {
             super(itemView);
