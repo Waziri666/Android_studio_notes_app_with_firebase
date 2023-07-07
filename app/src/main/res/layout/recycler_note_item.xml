@@ -15,8 +15,7 @@
         android:text="note title"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:layout_marginVertical="4dp"
-        />
+        android:layout_marginVertical="4dp"/>
 
     <TextView
         android:id="@+id/note_content_text_view"
@@ -27,8 +26,7 @@
         android:ellipsize="end"
         android:textColor="@color/grey"
         android:textSize="17sp"
-        android:layout_marginVertical="4dp"
-        />
+        android:layout_marginVertical="4dp"/>
     
     <TextView
         android:id="@+id/note_timestamp_text_view"
@@ -38,6 +36,5 @@
         android:textColor="@color/grey"
         android:textSize="12sp"
         android:layout_marginVertical="4dp"
-        android:gravity="right"
-        />
+        android:gravity="right"/>
 </LinearLayout>
