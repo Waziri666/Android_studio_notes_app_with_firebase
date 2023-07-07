@@ -29,12 +29,7 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             app:tint="@color/white"
-
             android:background="?attr/selectableItemBackgroundBorderless"/>
-
-
-
-
     </RelativeLayout>
 
     <LinearLayout
@@ -57,6 +52,7 @@
             android:padding="12dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"/>
+        
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,6 +66,7 @@
             android:textColor="@color/black"
             android:textColorHint="@color/black"/>
     </LinearLayout>
+    
     <TextView
         android:id="@+id/delete_note_text_view"
         android:layout_width="match_parent"
