@@ -2,7 +2,6 @@ package com.example.notify;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.PatternMatcher;
@@ -13,7 +12,6 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -50,7 +48,6 @@ public class CreateAccountActivity extends AppCompatActivity {
        }
         createAccountInFirebase(email,password);
     }
-
 
     void createAccountInFirebase(String email,String password){
       changeInProgress(true);
@@ -97,8 +94,5 @@ public class CreateAccountActivity extends AppCompatActivity {
         }
         return true;
     }
-
-
-
 
 }
