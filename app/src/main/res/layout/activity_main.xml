@@ -29,16 +29,14 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             app:tint="@color/white"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            />
+            android:background="?attr/selectableItemBackgroundBorderless"/>
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/recycler_view"
-        android:layout_below="@id/title_bar_layout"
-        />
+        android:layout_below="@id/title_bar_layout"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
