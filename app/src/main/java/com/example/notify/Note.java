@@ -1,6 +1,5 @@
 package com.example.notify;
 
-
 import com.google.firebase.Timestamp;
 
 public class Note {
