@@ -8,8 +8,7 @@
     android:gravity="center"
     android:background="@color/primaryDark"
     tools:context=".SplashActivity">
-
-
+    
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +18,7 @@
         android:textStyle="bold"
         android:gravity="center"
         />
+    
     <ProgressBar
         android:layout_width="24dp"
         android:layout_height="24dp"
