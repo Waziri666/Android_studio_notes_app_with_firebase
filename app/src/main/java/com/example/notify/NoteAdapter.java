@@ -53,7 +53,6 @@ public class NoteAdapter extends FirestoreRecyclerAdapter<Note,NoteAdapter.NoteV
             contentTextView = itemView.findViewById(R.id.note_content_text_view);
             timestampTextview = itemView.findViewById(R.id.note_timestamp_text_view);
 
-
         }
     }
 
