@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.Timestamp;
@@ -47,9 +46,7 @@ public class NoteDetailsActivity extends AppCompatActivity {
             deleteNoteTextViewBtn.setVisibility(View.VISIBLE);
         }
 
-
         saveNoteBtn.setOnClickListener((v) -> saveNote() );
-
         deleteNoteTextViewBtn.setOnClickListener((v) -> deleteNoteFromFirebase());
 
     }
@@ -79,7 +76,6 @@ public class NoteDetailsActivity extends AppCompatActivity {
         }
 
 
-
         documentReference.set(note).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
@@ -98,9 +94,6 @@ public class NoteDetailsActivity extends AppCompatActivity {
             DocumentReference documentReference;
 
                 documentReference = Utility.getCollectionReferenceForNotes().document(docId);
-
-
-
 
             documentReference.delete().addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
